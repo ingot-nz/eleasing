@@ -1,0 +1,322 @@
+div#print_area {
+  font-family: 'htgd';
+  font-size: 15px;
+  line-height: 1.5em;
+  padding: 10px 20px;
+}
+div#stack_36073 {
+  z-index: 100 !important;
+}
+
+div#stack_36073 {
+  z-index: 100 !important;
+}
+.Client-Info .fields input {
+  margin-top: 10px;
+}
+
+.mySlides label {
+  font-size: 20px;
+}
+
+.mySlides h2 {
+  line-height: 1.2em;
+}
+
+a.prev, a.next {
+  cursor: pointer;
+}
+
+.customer_details {
+  line-height: 1.5em;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #c1bdbd;
+    padding-bottom: 10px;
+}
+
+.default-logo {
+  position: relative;
+  height: 100px;
+  border-bottom: 1px solid #c5c1c1;
+}
+
+.default-logo img {
+    right: 20px;
+    height: 95px;
+    position: absolute;
+}
+
+div#Commercial-Section table, div#Government-Section table {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+div#add-info {
+  line-height: 1.5em;
+}
+
+/* style the print layout*/
+img#chosen-image {
+    margin-left: 0px;
+    width: 400px;
+    
+}
+.container {
+  margin-bottom: 50px;
+}
+/* fields input css */
+
+.fields input, .fields textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #cac3c3;
+    margin-bottom: 10px;
+    width:100%;
+}
+input#upload-button {
+    padding: 15px;
+    border: 1px solid #bfb9b9;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.upload_logo {
+    margin-top: 10px;
+}
+
+.Client-Info .fields {
+    display: block;
+    padding: 5px;
+}
+span#customer_equipment_description {
+    display: inline-block;
+}
+
+.Client-Info .fields label {
+    padding-right: 10px;
+}
+
+#print_area h3 {
+    padding:10px;
+    color:  #c03831
+}
+div#print_area h2 {
+    padding-bottom: 10px !important;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  table#customer_information td {
+    padding: 5px;
+}
+
+.today_date h3 {
+    margin: 5px;
+}
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  #customer_information td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+  }
+  #customer_information tr:nth-child(even) {
+    background-color:white;
+  }
+
+
+  /* Modal Generate CSS */
+
+  button#DownloadQuote , button.Export-PDF-Button{
+    background: #c03831;
+    padding: 18px 30px;
+    color: white;
+    border: none;
+    border-radius: 0.500rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+button.Export-PDF-Button {
+    margin-bottom:100px;
+    margin-top:20px;
+}
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  .quote-footer .img-right img {
+    padding-bottom:10px;
+    height:80px;
+}
+.quote-footer .right img {
+  width: 250px;
+}
+div#benefits ul li {
+  padding: 5px 0px;
+}
+div#print_area {
+  font-family: sans-serif;
+}
+ 
+div#quote-footer .info {
+  margin-top: -20px;
+}
+
+div#print_area h3 {
+  padding-left: 0px !important;
+}
+div#benefits h3 {
+  border-bottom: 1px solid #c1bdbd;
+  padding-bottom: 10px;
+}
+div#benefits ul {
+  list-style: number;
+}
+div#benefits ul li {
+  padding:2px;
+  margin-left:20px;
+}
+.hidePrev, .hideNext {
+ display:none;
+}
+.showNext, .showPrev {
+  display:block;
+}div#print_area a {
+    color: #c03831;
+}
+.container h2 {
+    padding-bottom:30px !important;
+}
+.container h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.fields textarea#equipment_description {
+    margin-top: 10px;
+}
+
+.quote-footer {
+    text-align: right;
+    margin-top:30px;
+}
+.quote-footer .right {
+  right:0px;
+}
+.quote-footer span.name {
+  color:#c03831;
+}
+div#benefits h3 {
+  color: #c03831;
+}
+
+#Commercial-Section h2, #Government-Section h2 {
+  color: #c03831 !important;
+}
+
+  img#chosen-image {
+    margin-left: 0px;
+    width: 250px;
+}
+figure.image-container {
+    margin-left: 0px;
+}
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 100%;
+    min-height: 100vh;
+    max-height: fit-content;
+    position:relative;
+    width:900px;
+    display:flex;
+    align-items: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+  }
+  a.prev {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding:10px;
+    background: #c03831;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 0.500rem;
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+a.next {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: #c03831;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 0.500rem;
+    font-size: 20px;
+    margin: 10px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right:20px;
+    top:20px;
+    z-index: 100;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Hide Commercial and Govt. Section */
+  span#commercial-btn, span#government-btn {
+    background: #ec241a;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px !important;
+    color: white;
+    border-radius: 10px;
+}
+  #Commercial-Section, #Government-Section {
+      display:none;
+  }
