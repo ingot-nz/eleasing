@@ -55,6 +55,7 @@ var span = document.getElementsByClassName("close")[0];
 btn.onclick = function () {
   modal.style.display = "block";
   document.body.classList.add("no-scroll");
+  document.querySelector(".header").style.zIndex = "0";
 
   var comm_24_months = $("#firstband24").text();
   console.log(comm_24_months);
@@ -138,6 +139,7 @@ $("#customer_phone").on("input", function () {
 span.onclick = function () {
   modal.style.display = "none";
   document.body.classList.remove("no-scroll");
+  document.querySelector(".header").style.zIndex = "99";
   
    // clearn commercial calc value
     $("#comm_24_months_value").text('');
@@ -160,6 +162,7 @@ window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
     document.body.classList.remove("no-scroll");
+    document.querySelector(".header").style.zIndex = "99";
 
     // clearn commercial calc value
     $("#comm_24_months_value").text('');
