@@ -53,6 +53,7 @@ var btn = document.getElementById("DownloadQuote");
 var span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function () {
+  window.scrollTo({ top: 0, behavior: "smooth" });
   modal.style.display = "block";
   document.body.classList.add("no-scroll");
   document.querySelector(".header").style.zIndex = "0";
