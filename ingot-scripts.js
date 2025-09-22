@@ -54,6 +54,7 @@ var span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function () {
   modal.style.display = "block";
+  document.body.classList.add("no-scroll");
 
   var comm_24_months = $("#firstband24").text();
   console.log(comm_24_months);
@@ -136,6 +137,7 @@ $("#customer_phone").on("input", function () {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
   modal.style.display = "none";
+  document.body.classList.remove("no-scroll");
   
    // clearn commercial calc value
     $("#comm_24_months_value").text('');
@@ -157,6 +159,7 @@ span.onclick = function () {
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
+    document.body.classList.remove("no-scroll");
 
     // clearn commercial calc value
     $("#comm_24_months_value").text('');

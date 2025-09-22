@@ -1,3 +1,8 @@
+body.no-scroll {
+  overflow: hidden !important;
+  height: 100vh;
+  position: relative;
+}
 div#print_area {
   font-family: 'htgd';
   font-size: 15px;
